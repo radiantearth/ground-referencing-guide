@@ -2,6 +2,7 @@ Proposed primary principles
 ###########################
 
 Ground reference data should have the following properties to be usable as training data:
+
 1. Be geographically specific
 2. Use consistent classes
 3. Include metadata for replicability
