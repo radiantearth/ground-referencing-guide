@@ -15,6 +15,7 @@ Minimum requirements
 ********************
 
 With regards to location, ground reference data must:
+
 - Include specific coordinates where a classification was identified on the ground
   - In cases where data is geographically anonymized, it must be tied to an image specifically
 - Refer to only one class, and that class must be what is within the boundaries of the polygon
@@ -52,6 +53,7 @@ Minimum requirements
 ********************
 
 In order to be used for machine learning, the classification of each record must follow consistent guidelines. Each dataset must:
+
 - Have clear guidelines on how each record is classified
 - If the classifications are discrete, they must be completely disambiguated, such that there is no possibility that two different classes could be assigned. Such cases call for a new class, which may be the label that simply combines the classes (i.e. Maize and Groundnuts that are intercropped would end up as its own class, separate from Maize and from Groundnuts).
 - If the classifications are continuous, the accuracy and precision of the measurement must be accounted for.
@@ -74,13 +76,21 @@ Metadata for Replicability
 Datasets require sufficient metadata to explain how the data was collected and to make it usable in machine learning applications. As such, the following metadata fields are required:
 
 **Date** | Each record should include the date (and preferably time) that it was collected. Collection dates, which should be as specific as possible, are acceptable for the entire dataset as well.
+
 **Coordinate System** | The coordinate system used to record the original GPS records must be included. The preferred system is latitude and longitude values in World Geodetic System (WGS 1984) format which is the standard system in most of the GPS devices.
+
 **Methods** | The dataset should include a description of the methodology for data collection in order to inform data consumers how to use the data. Potential elements to include are how shapes were determined and recorded, what classification schema was used and any guidelines for determining classification, and ideally who executed the survey and using what devices.
+
 **Classification Fields** | These include information that the field collector will record (such as crop type, crop yield, dates of farming, land cover class, etc). Each class should be recorded as a single string and the same name should be used consistently for a class across the dataset. In agricultural cases, separate fields for planting and harvest dates should be recorded. Planting date and harvest date is very important to record when known. When standard ontologies (such as AGROVAC URIs) are used, plain language fields should be separated and marked.
+
 **Organization** | Name of the organization responsible for data collection, and name and contact information of the person who can provide more information about the data should be included.
+
 **Data Field Definitions** | Each of the fields that are recorded in the dataset should be defined in the metadata so users can understand and use them accordingly.
+
 **Description** (optional) | Description of the dataset, including the reasons for the initial data collection, details on the data collection, and funding/impact statements may be included.
+
 **Consent** (optional) | The parameters of the consent for data use granted by people and property surveyed.
+
 **License** | List the license attached to the data (See Section 4)
 
 
