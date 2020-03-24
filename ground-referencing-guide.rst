@@ -35,7 +35,7 @@ To that end, careful and clear data collection methods are critical. When collec
 The most accurate method is a continuous GPS trace of a zone, such as a field (Figure 1). This involves holding a GPS device and walking around the perimeter of the area of classification. The field worker should be careful not to include other classifications when walking around a field.
 
 .. figure:: Figures/Figure_1_Active_Trace.png
-  :scale: 20
+  :width: 200
 
   **Figure 1: Active Trace**
 
@@ -43,24 +43,71 @@ The most accurate method is a continuous GPS trace of a zone, such as a field (F
 
 |
 
-.. figure:: Figures/Figure_6_Missed_Corner.png
-  :width: 50
 
-  **Figure 6: Missed Corner**
+Traces that use point collection (where the field practitioner must press a ‘collect’ button for every point on the shape) must be done carefully so that no other classes or overlaps occur (Figure 2). The practitioner should be careful to get every corner, including interior corners (Figure 6), and to ensure that every shape uses a new record (Figure 7).
+
+.. figure:: Figures/Figure_2_Manual_Trace.png
+  :width: 200
+
+  **Figure 2: Manual Trace**
+
+  *If the available equipment requires manual input of points, it is critical to capture every corner, including interior corners (such as in the bottom left, where the field juts out). This ensures that the shape only includes the field, and not areas that aren’t part of the field (see figure 6).*
+
+.. figure:: Figures/Figure_3_Missed_Corner.png
+  :width: 200
+
+  **Figure 3: Missed Corner**
 
   *When performing a manual trace, it is critical to not miss any corners. In this instance, the field collector included parts several fields south that would be included as false positives. If time is a critical factor, quadrilateral samples may be a more accurate method to use, since the collection of four points is a simpler target, taking care to ensure that only one class is included.*
 
-|
+.. figure:: Figures/Figure_4_Unclosed_Shape.png
+  :width: 200
 
-Traces that use point collection (where the field practitioner must press a ‘collect’ button for every point on the shape) must be done carefully so that no other classes or overlaps occur (Figure 2). The practitioner should be careful to get every corner, including interior corners (Figure 6).
+  **Figure 4: Unclosed Shape**
+
+  *It is critical that each area is recorded as a discrete shape. In this case, the field collector forgot to make a new shape, and recorded both fields as the same shape In such a case, the entire shape must be rejected, since it is impossible to determine whether the fields are the same class, and which parts should be included.*
+
+|
 
 In some cases, practitioners will collect a single GPS point while in the field and then use satellite or drone imagery to draw a polygon around the field. In such cases, recent high resolution imagery is preferred and in all cases the imagery metadata including source, date of acquisition, resolution, and platform should be recorded (and if available a cloud-based URI).
 
 In cases where it is not possible to capture the full extent of a class (e.g. there is an obstacle near the farm boundary), a rectangular or quadrilateral shape inside the area is recommended that makes sure to include only the one class. Some examples of alternative geographic definition methods include sample squares and points with a fixed-radius circle that includes only a single class of variable (Figures 3 and 4). For agricultural data, that radius should be at least 30 m.
 
+.. figure:: Figures/Figure_5_Quadrilateral_Sample.png
+  :width: 200
+
+  **Figure 5: Quadrilateral Sample**
+
+  *To prevent false positive errors when an area is too complex or the work is time-limited, capturing a ground reference sample by selecting a rectangle or a four-point shape is acceptable. Ensure that only one class is within that sample. Square samples are sometimes used in agricultural surveys.*
+
+.. figure:: Figures/Figure_6_Point-fixed_distance_sample.png
+  :width: 200
+
+  **Figure 6: Point-fixed Distance Sample**
+
+  *A single point is typically not sufficient for ground reference data, since an area is required to sample imagery. However, in some cases, a set of points is sufficient so long as a distance from that point can be given such that the area included is only one class.*
+
+|
+
 Some practitioners will take a geographic point while on the road and a heading of the direction of the field they are classifying. Such cases require great care to ensure that these records can be identified with certainty with an actual polygon.
 
 In less ideal cases, the record should be ensured to contain only the specified classification and not to overlap with other classifications. In a case where shapes overlap slightly, the overlapping areas should be removed from both shapes; in cases where there is significant overlap where the extent of the classification is unclear, both records should be deleted from the dataset (Figure 5, 8).
+
+.. figure:: Figures/Figure_7_Partial_Overlap.png
+  :width: 200
+
+  **Figure 7: Partial Overlap**
+
+  *Avoiding overlap is critical to the accuracy of the dataset. In this case, the overlapping area (marked in red) would be interpreted as both the purple and green classes, confusing the model. Staying inside the border and avoiding adjacent fields are useful methods to avoid such a problem. If small overlaps occur, the data should be cleaned to remove the area from both shapes that overlaps.*
+
+.. figure:: Figures/Figure_8_Inconclusive_Point.png
+  :width: 200
+
+  **Figure 8: Inconclusive Point**
+
+  *Point data that is too inclusive is not useful for ground reference. In this case, while the point may be accurate for the collection point, it is not accurate for the other fields and forest that were included in the fixed distance. Other errors include when a point is taken while looking at rather than standing in the field to be classified.*
+
+|
 
 Critically, each record should describe what is actively present in the shape, and not what will be there or was there, nor what was observable in a different location from that area.
 
