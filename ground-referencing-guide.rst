@@ -186,4 +186,4 @@ Data descriptions should be in machine readable formats when possible, such as a
 
 When possible, we recommend using GeoJSON, since all data and metadata can be contained within a single file, without concerns about zipped folders. GeoJSON is also compatible with many current standards.
 
-You can see a sample GeoJSON training data :ref:`here </sample-groundref-data.geojson>`.
+You can see a sample GeoJSON training data `here </sample-groundref-data.geojson>`_.
