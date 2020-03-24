@@ -34,6 +34,29 @@ To that end, careful and clear data collection methods are critical. When collec
 
 The most accurate method is a continuous GPS trace of a zone, such as a field (Figure 1). This involves holding a GPS device and walking around the perimeter of the area of classification. The field worker should be careful not to include other classifications when walking around a field.
 
+.. figure:: Figures/Figure 1 Active Trace.png
+
+  *Figure 1: Active Trace* When possible, tracing a field using a device
+that actively collects points is ideal. Note that
+the line is inside rather than on the border, to
+ensure that the shape is entirely one class. For
+training data purposes, it is preferable to leave
+part of the field out rather than include something
+that isn’t part of the field.
+
+|
+
+.. figure:: Figures/Figure 6 Missed Corner.png
+
+  *Figure 6: Missed Corner* When performing a manual trace, it is critical to
+not miss any corners. In this instance, the field
+collector included parts several fields south that
+would be included as false positives. If time is a
+critical factor, quadrilateral samples may be a
+more accurate method to use, since the collection
+of four points is a simpler target, taking care
+to ensure that only one class is included.
+
 Traces that use point collection (where the field practitioner must press a ‘collect’ button for every point on the shape) must be done carefully so that no other classes or overlaps occur (Figure 2). The practitioner should be careful to get every corner, including interior corners (Figure 6).
 
 In some cases, practitioners will collect a single GPS point while in the field and then use satellite or drone imagery to draw a polygon around the field. In such cases, recent high resolution imagery is preferred and in all cases the imagery metadata including source, date of acquisition, resolution, and platform should be recorded (and if available a cloud-based URI).
