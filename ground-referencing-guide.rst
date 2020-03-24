@@ -185,3 +185,5 @@ The dataset should be cleaned and well-formed, particularly with all required me
 Data descriptions should be in machine readable formats when possible, such as a GeoJSON or an attached XML file. Attached human readable description files, such as a PDF, are welcome but secondary.
 
 When possible, we recommend using GeoJSON, since all data and metadata can be contained within a single file, without concerns about zipped folders. GeoJSON is also compatible with many current standards.
+
+You can see a sample GeoJSON training data :doc:`here </sample-groundref-data.geojson>`.
