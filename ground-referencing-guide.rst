@@ -3,11 +3,11 @@ Proposed primary principles
 
 Ground reference data should have the following properties to be usable as training data:
 
-1. Be geographically specific
-2. Use consistent classes
-3. Include metadata for replicability
-4. Have clear usage licenses
-5. Follow correct formatting
+1. `Geographic Specificity`_
+2. `Class Consistency`_
+3. `Metadata for Replicability`_
+4. `Clear Usage Licensing`_
+5. Follow correct `Format`_
 
 Geographic Specificity
 ######################
@@ -168,8 +168,8 @@ Datasets require sufficient metadata to explain how the data was collected and t
 **License** | List the license attached to the data (See Section 4)
 
 
-Data License
-############
+Clear Usage Licensing
+#####################
 
 The dataset should have a very clear license for use. The license should address who can use the data and what restrictions on data usage exist (or don’t). For example, the license should address whether the data can be used for commercial and/or non-commercial purposes, or by academics or governments.
 
