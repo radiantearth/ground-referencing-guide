@@ -44,7 +44,7 @@ The most accurate method is a continuous GPS trace of a zone, such as a field (F
 |
 
 
-Traces that use point collection (where the field practitioner must press a ‘collect’ button for every point on the shape) must be done carefully so that no other classes or overlaps occur (Figure 2). The practitioner should be careful to get every corner, including interior corners (Figure 6), and to ensure that every shape uses a new record (Figure 7).
+Traces that use point collection (where the field practitioner must press a ‘collect’ button for every point on the shape) must be done carefully so that no other classes or overlaps occur (Figure 2). The practitioner should be careful to get every corner, including interior corners (Figure 3), and to ensure that every shape uses a new record (Figure 4).
 
 .. figure:: Figures/Figure_2_Manual_Trace.png
   :width: 200
@@ -71,7 +71,7 @@ Traces that use point collection (where the field practitioner must press a ‘c
 
 In some cases, practitioners will collect a single GPS point while in the field and then use satellite or drone imagery to draw a polygon around the field. In such cases, recent high resolution imagery is preferred and in all cases the imagery metadata including source, date of acquisition, resolution, and platform should be recorded (and if available a cloud-based URI).
 
-In cases where it is not possible to capture the full extent of a class (e.g. there is an obstacle near the farm boundary), a rectangular or quadrilateral shape inside the area is recommended that makes sure to include only the one class. Some examples of alternative geographic definition methods include sample squares and points with a fixed-radius circle that includes only a single class of variable (Figures 3 and 4). For agricultural data, that radius should be at least 30 m.
+In cases where it is not possible to capture the full extent of a class (e.g. there is an obstacle near the farm boundary), a rectangular or quadrilateral shape inside the area is recommended that makes sure to include only the one class. Some examples of alternative geographic definition methods include sample squares and points with a fixed-radius circle that includes only a single class of variable (Figures 5 and 6). For agricultural data, that radius should be at least 30 m.
 
 .. figure:: Figures/Figure_5_Quadrilateral_Sample.png
   :width: 200
@@ -91,7 +91,7 @@ In cases where it is not possible to capture the full extent of a class (e.g. th
 
 Some practitioners will take a geographic point while on the road and a heading of the direction of the field they are classifying. Such cases require great care to ensure that these records can be identified with certainty with an actual polygon.
 
-In less ideal cases, the record should be ensured to contain only the specified classification and not to overlap with other classifications. In a case where shapes overlap slightly, the overlapping areas should be removed from both shapes; in cases where there is significant overlap where the extent of the classification is unclear, both records should be deleted from the dataset (Figure 5, 8).
+In less ideal cases, the record should be ensured to contain only the specified classification and not to overlap with other classifications. In a case where shapes overlap slightly, the overlapping areas should be removed from both shapes; in cases where there is significant overlap where the extent of the classification is unclear, both records should be deleted from the dataset (Figure 7, 8).
 
 .. figure:: Figures/Figure_7_Partial_Overlap.png
   :width: 200
