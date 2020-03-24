@@ -35,7 +35,7 @@ To that end, careful and clear data collection methods are critical. When collec
 The most accurate method is a continuous GPS trace of a zone, such as a field (Figure 1). This involves holding a GPS device and walking around the perimeter of the area of classification. The field worker should be careful not to include other classifications when walking around a field.
 
 .. figure:: Figures/Figure_1_Active_Trace.png
-  :scale: 20 %
+   :scale: 20
 
   **Figure 1: Active Trace**
 
@@ -44,7 +44,7 @@ The most accurate method is a continuous GPS trace of a zone, such as a field (F
 |
 
 .. figure:: Figures/Figure_6_Missed_Corner.png
-  :scale: 20 %
+   :width: 50
 
   **Figure 6: Missed Corner**
 
