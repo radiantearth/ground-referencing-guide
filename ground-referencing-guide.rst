@@ -35,7 +35,7 @@ To that end, careful and clear data collection methods are critical. When collec
 The most accurate method is a continuous GPS trace of a zone, such as a field (Figure 1). This involves holding a GPS device and walking around the perimeter of the area of classification. The field worker should be careful not to include other classifications when walking around a field.
 
 .. figure:: Figures/Figure_1_Active_Trace.png
-  :width: 50px
+  :scale: 20 %
 
   **Figure 1: Active Trace**
 
@@ -44,9 +44,10 @@ The most accurate method is a continuous GPS trace of a zone, such as a field (F
 |
 
 .. figure:: Figures/Figure_6_Missed_Corner.png
-  :width: 50px
+  :scale: 20 %
 
   **Figure 6: Missed Corner**
+
   *When performing a manual trace, it is critical to not miss any corners. In this instance, the field collector included parts several fields south that would be included as false positives. If time is a critical factor, quadrilateral samples may be a more accurate method to use, since the collection of four points is a simpler target, taking care to ensure that only one class is included.*
 
 |
