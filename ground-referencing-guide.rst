@@ -53,12 +53,16 @@ Traces that use point collection (where the field practitioner must press a ‘c
 
   *If the available equipment requires manual input of points, it is critical to capture every corner, including interior corners (such as in the bottom left, where the field juts out). This ensures that the shape only includes the field, and not areas that aren’t part of the field (see figure 6).*
 
+|
+
 .. figure:: Figures/Figure_3_Missed_Corner.png
   :width: 200
 
   **Figure 3: Missed Corner**
 
   *When performing a manual trace, it is critical to not miss any corners. In this instance, the field collector included parts several fields south that would be included as false positives. If time is a critical factor, quadrilateral samples may be a more accurate method to use, since the collection of four points is a simpler target, taking care to ensure that only one class is included.*
+
+|
 
 .. figure:: Figures/Figure_4_Unclosed_Shape.png
   :width: 200
@@ -80,6 +84,8 @@ In cases where it is not possible to capture the full extent of a class (e.g. th
 
   *To prevent false positive errors when an area is too complex or the work is time-limited, capturing a ground reference sample by selecting a rectangle or a four-point shape is acceptable. Ensure that only one class is within that sample. Square samples are sometimes used in agricultural surveys.*
 
+|
+
 .. figure:: Figures/Figure_6_Point-fixed_distance_sample.png
   :width: 200
 
@@ -99,6 +105,8 @@ In less ideal cases, the record should be ensured to contain only the specified 
   **Figure 7: Partial Overlap**
 
   *Avoiding overlap is critical to the accuracy of the dataset. In this case, the overlapping area (marked in red) would be interpreted as both the purple and green classes, confusing the model. Staying inside the border and avoiding adjacent fields are useful methods to avoid such a problem. If small overlaps occur, the data should be cleaned to remove the area from both shapes that overlaps.*
+
+|
 
 .. figure:: Figures/Figure_8_Inconclusive_Point.png
   :width: 200
