@@ -163,7 +163,7 @@ Datasets require sufficient metadata to explain how the data was collected and t
 
 **Description** (optional) | Description of the dataset, including the reasons for the initial data collection, details on the data collection, and funding/impact statements may be included.
 
-**Consent** (optional) | The parameters of the consent for data use granted by people and property surveyed.
+**Consent** (optional) | The parameters of the consent for data use granted by people and property surveyed, including certification of the consent of persons surveyed, permissions from any data providers or partners, and any relevant government documentation of rights to collect and share data.
 
 **License** | List the license attached to the data (See Section 4)
 
