@@ -7,7 +7,7 @@ Ground reference data should have the following properties to be usable as train
 2. `Class Consistency`_
 3. `Metadata for Replicability`_
 4. `Clear Usage Licensing`_
-5. Follow correct `Format`_
+5. `Well-Structured Format`_
 
 Geographic Specificity
 ######################
@@ -177,8 +177,8 @@ To increase the impact of collected data, we recommend the data license to be as
 
 Additionally, consideration should be taken to the data collector’s rights to the information collected. Data should only be shared and licensed by practitioners that have the rights and permissions to share that data. Considerations of anonymization of individual identities should be undertaken without changing (or blurring) the geographic location of the data.
 
-Format
-######
+Well-Structured Format
+######################
 
 The dataset should be cleaned and well-formed, particularly with all required metadata included. Any geographic file format can be used to record the data, including GeoJSON, Shapefile, and CSV.
 
