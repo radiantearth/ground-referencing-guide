@@ -119,7 +119,7 @@ In order to be used for machine learning, the classification of each record must
 Preferred Practices
 *******************
 
-To maximize dataset usefulness, the classification used for the dataset needs to should follow a well-formed classification schema. For land cover, we recommend using the ML4GD Working Group schema. For crop data, we recommend using the FAO AGROVAC URIs for the crop to ensure cross-domain specificity, as well as including information about growth stages, most of which exist as AGROVAC concepts.
+To maximize dataset usefulness, the classification used for the dataset needs to should follow a well-formed classification schema. For land cover, we recommend using the `ML4GD Working Group schema <https://github.com/radiantearth/ml4gd/blob/master/06142018-washington-dc/w1-lc-taxonomy/Draft_LC_taxonomy.pdf>`_. For crop data, we recommend using the `FAO AGROVAC <http://aims.fao.org/standards/agrovoc/editorial_guidelines>`_ URIs for the crop to ensure cross-domain specificity, as well as including information about growth stages, most of which exist as AGROVAC concepts.
 
 In cases without consensus classification schema, having established classification criteria is critical for the field collector in order to ensure that the class is replicable. They should be clear and documented.
 
@@ -157,7 +157,7 @@ Clear Usage Licensing
 
 The dataset should have a very clear license for use. The license should address who can use the data and what restrictions on data usage exist (or don’t). For example, the license should address whether the data can be used for commercial and/or non-commercial purposes, or by academics or governments.
 
-To increase the impact of collected data, we recommend the data license to be as open as possible. Open data allows for any user to make something valuable from the previous work, and increases the impact the initial collection has. The recommended open data license is Creative Commons (particularly CC-BY).
+To increase the impact of collected data, we recommend the data license to be as open as possible. Open data allows for any user to make something valuable from the previous work, and increases the impact the initial collection has. The recommended open data license is `Creative Commons <https://creativecommons.org/about/program-areas/open-data/>`_ (particularly `CC-BY <https://creativecommons.org/licenses/by/4.0/>`_).
 
 Additionally, consideration should be taken to the data collector’s rights to the information collected. Data should only be shared and licensed by practitioners that have the rights and permissions to share that data. Considerations of anonymization of individual identities should be undertaken without changing (or blurring) the geographic location of the data.
 
