@@ -9,10 +9,7 @@
   "plaintext": "GroundReferenceDemo by Radiant Earth Foundation is licensed under a Creative Commons Attribution 4.0 International License."},
 "methods": "This dataset was collected by PlantVillage at Penn State University using Open Data Kit working with partner farms. When available, farmers filled out surveys about their crops.",
 "Attribute_defs":{
-"ID": "Field_ID, a 3 part number #1.#2.#3.
-#1 refers to the lead farmer we are working with. This is all kept in a google drive document. For example, Josephine is Lead Farmer 1. Her number would look like 1.#.#.
-#2 refers to the number field you are at. For example, if we are surveying the 4th field of the day with Josephine; the ID would be 1.04. If there is no third number that means all the information is known about this field.
-#3 refers to if the field is an adjacent field. An adjacent field is constituted by being a field in the area we are working but little to none of the information is known. Typically fields with a 3rd number just have a polygon and a crop.",
+"ID": "Field_ID, a 3 part number #1.#2.#3. #1 refers to the lead farmer we are working with. This is all kept in a google drive document. For example, Josephine is Lead Farmer 1. Her number would look like 1.#.#. #2 refers to the number field you are at. For example, if we are surveying the 4th field of the day with Josephine; the ID would be 1.04. If there is no third number that means all the information is known about this field. #3 refers to if the field is an adjacent field. An adjacent field is constituted by being a field in the area we are working but little to none of the information is known. Typically fields with a 3rd number just have a polygon and a crop.",
 "Latitude": "Collected GPS coordinate.",
 "Longitude": "Collected GPS coordinate.",
 "Accuracy": "Of collected GPS coordinate",
