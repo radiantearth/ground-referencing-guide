@@ -11,3 +11,6 @@ As a first step in that direction, [Radiant Earth Foundation](https://radiant.ea
 * [An example of groundreference data in GeoJSON format.](sample-groundref-data.json)
 
 Our objective is to provide a starting point framework that all of us as members of the global EO, ML and agricultural community can discuss, critique, and improve upon. These guidelines will continue to be developed through future meetings and events. Comments and improvements are welcome.
+
+## Contributing
+You are welcomed to provide feedback on this guide. You can submit an issue, or contact us by [email](mailto:ml@radiant.earth). Moreover, please reach out to us if you have data you’d like to share. 
