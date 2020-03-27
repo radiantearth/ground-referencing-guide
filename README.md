@@ -1,4 +1,4 @@
-Best practices for ground reference data collection and cataloguing  
+# Best practices for ground reference data collection and cataloguing  
 
 
 Recent advancements in machine learning (ML) algorithms and reduced cloud computing costs have significantly improved the utility and applicability of Earth observations (EO). Concurrently, the importance of understanding the health and status of the world's farms, especially in how they will be impacted by climate change or assist in global poverty alleviation, has never been greater.
