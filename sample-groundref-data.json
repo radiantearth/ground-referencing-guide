@@ -13,8 +13,9 @@
 "Latitude": "Collected GPS coordinate.",
 "Longitude": "Collected GPS coordinate.",
 "Accuracy": "Of collected GPS coordinate",
-"Crop":"Crop Type found in the field.",
-"Survey Date":"Captures date and time of survey when it is completed.",
+"Crop Name": "Crop Type found in the field.",
+"Crop URI": "URI of FAO AGROVAC concept",
+"Survey Date": "Captures date and time of survey when it is completed.",
 "Water Resources":"Water resources, if the field was rainfed or irrigated.",
 "Planting Date":"Planting date, when the field was planted.",
 "Harvest Date":"Harvest date, The month the field is expected to be harvested.",
@@ -22,17 +23,18 @@
 },
 "features": [
 { "type": "Feature",
- 		 "properties": {
+ 		"properties": {
     "ID": "4.15",
     "Latitude": 0.565611,
-    "Longitutde": 34.29758,
+    "Longitude": 34.29758,
     "Accuracy": "4.288",
-    "Crop": "Millet",
-    "Survey Dat": "14-05-19",
-    "Water Reso": "rainfed",
-    "Planting D": "31-Jan-19",
-    "Harvest Da": "July",
-    "Crop Densi": "95",
+    "Crop Name": "Millet",
+    "Crop URI": "http://aims.fao.org/aos/agrovoc/c_4838",
+    "Survey Date": "2019-05-14",
+    "Water Resource": "rainfed",
+    "Planting Date": "2019-01-31",
+    "Harvest Date": "2019-07-15",
+    "Crop Density": "95"
   	  },
  	 "geometry": {
  		   "type": "MultiPolygon",
