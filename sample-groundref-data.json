@@ -1,0 +1,53 @@
+{
+"type": "FeatureCollection",
+"name": "GroundReferenceDemo",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"organization":  "Radiant Earth Foundation",
+"license": {
+  "title": "Creative Commons Attribution 4.0 International License",
+  "href": "http://creativecommons.org/licenses/by/4.0/",
+  "plaintext": "GroundReferenceDemo by Radiant Earth Foundation is licensed under a Creative Commons Attribution 4.0 International License."},
+"methods": "This dataset was collected by PlantVillage at Penn State University using Open Data Kit working with partner farms. When available, farmers filled out surveys about their crops.",
+"Attribute_defs":{
+"ID": "Field_ID, a 3 part number #1.#2.#3. #1 refers to the lead farmer we are working with. This is all kept in a google drive document. For example, Josephine is Lead Farmer 1. Her number would look like 1.#.#. #2 refers to the number field you are at. For example, if we are surveying the 4th field of the day with Josephine; the ID would be 1.04. If there is no third number that means all the information is known about this field. #3 refers to if the field is an adjacent field. An adjacent field is constituted by being a field in the area we are working but little to none of the information is known. Typically fields with a 3rd number just have a polygon and a crop.",
+"Latitude": "Collected GPS coordinate.",
+"Longitude": "Collected GPS coordinate.",
+"Accuracy": "Of collected GPS coordinate",
+"Crop Name": "Crop Type found in the field.",
+"Crop URI": "URI of FAO AGROVAC concept",
+"Survey Date": "Captures date and time of survey when it is completed.",
+"Water Resources":"Water resources, if the field was rainfed or irrigated.",
+"Planting Date":"Planting date, when the field was planted.",
+"Harvest Date":"Harvest date, The month the field is expected to be harvested.",
+"Crop Density":"Crop Density, Estimated in percentage cover calibration, based on image."
+},
+"features": [
+{ "type": "Feature",
+ 		"properties": {
+    "ID": "4.15",
+    "Latitude": 0.565611,
+    "Longitude": 34.29758,
+    "Accuracy": "4.288",
+    "Crop Name": "Millet",
+    "Crop URI": "http://aims.fao.org/aos/agrovoc/c_4838",
+    "Survey Date": "2019-05-14",
+    "Water Resource": "rainfed",
+    "Planting Date": "2019-01-31",
+    "Harvest Date": "2019-07-15",
+    "Crop Density": "95"
+  	  },
+ 	 "geometry": {
+ 		   "type": "Polygon",
+    "coordinates": [
+      [
+          [ 34.297512716052132, 0.565590904259618 ],
+          [ 34.297193074281793, 0.565555985410757 ],
+          [ 34.297175668179896, 0.565717974747087 ],
+          [ 34.297484512366516, 0.565702375969441 ],
+          [ 34.297512716052132, 0.565590904259618 ]
+      ]
+    ]
+  		}
+}
+]
+}
