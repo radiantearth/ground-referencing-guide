@@ -12,5 +12,8 @@ As a first step in that direction, [Radiant Earth Foundation](https://radiant.ea
 
 Our objective is to provide a starting point framework that all of us as members of the global EO, ML and agricultural community can discuss, critique, and improve upon. These guidelines will continue to be developed through future meetings and events. Comments and improvements are welcome.
 
+## Presentation
+In April 2020, [Radiant Earth Foundation](https://radiant.earth) and [CGIAR Platform for Big Data in Agriculture](https://bigdata.cgiar.org/) hosted a webinar to present this guideline, and discuss its applications for ground data collection. You can watch the recordings of the webinar [here](https://youtu.be/zHDZhPz2HTQ). 
+
 ## Contributing
 You are welcomed to provide feedback on this guide. You can submit an issue, or contact us by [email](mailto:ml@radiant.earth). Moreover, please reach out to us if you have data you’d like to share. 
